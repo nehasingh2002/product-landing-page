@@ -8,9 +8,8 @@
 
 body,
 html {
-    height: 100%;
-    width: auto;
-    margin: 0 -15px 0 auto;
+  height: 100%;
+  margin: 0px;
 }
 
 body {
@@ -282,9 +281,106 @@ h4 {
 
 /*Footer*/
 footer {
-    background-color: #6B7A8F;
+    font-family: italic;
+    color: white;
+   background-color: #a3a3c2;
     display: flex;
     text-align: center;
     flex-direction: column;
-    padding: 1rem 3rem 1rem;
+    padding: 1rem 3rem 0rem;
+    
 }
+#icon{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    
+}
+.fa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: .5rem ;
+  margin-right: .5rem ;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #e60073;
+  color: white;
+}
+
+/*About Page*/
+
+.top-portion{
+    background-color: #ffffe6;
+    display: flex;
+    flex-direction: column;
+}
+.top1 h1{
+    margin-left: 3rem;
+    font-family:  Times, "Times New Roman", Georgia, serif;
+    font-size: 3rem;
+}
+
+.top2{
+    display: flex;
+    /*justify-content: space-between;
+    align-items: center;*/
+}
+
+#top2-left{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+#top2-right{
+    display: flex;
+    padding: 1rem 5rem 5rem
+    
+}
+
+#top2-right img {
+    width: 400px;
+    height: 300px;
+    flex: 1;
+    object-fit: cover;
+}
+.mid-portion{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe6e6;
+}
+.mid-portion h2{
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.top3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+    padding-bottom: 3rem;
+}
+
+#mem {
+    font-style: italic;
+    max-width: 250px;
+    height: auto;
