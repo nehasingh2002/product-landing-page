@@ -423,3 +423,39 @@ footer {
     font-style: italic;
     max-width: 250px;
     height: auto;
+
+/*Contact us Page*/
+
+.top-portion-contact-us{
+    background-color: #ffffe6;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#page-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+}
+
+#page-left{
+    margin-left: 3rem ;
+    font-family: Times, "Times New Roman", Georgia, serif;;
+    font-size: 1rem;
+    padding-right: 5rem;
+}
+
+#page-right{
+    box-sizing: border-box;
+    background-color: #b3d9ff;
+    border: 100px;
+    border-color: black;
+    align-content: center;
+    align-items: center;
+}
+form {
+    margin-left: 3rem;
+    width: 600px;
+}
